@@ -1,4 +1,4 @@
-package com.lyk.coursearrange.config;
+package com.lyk.coursearrange.handler;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;
@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 @Configuration
 public class MyMetaObjectHandler implements MetaObjectHandler {
 
-    // 自动插入公公字段
+    // 自动插入公共字段
     @Override
     public void insertFill(MetaObject metaObject) {
         if (metaObject.hasSetter("createTime")&&getFieldValByName("createTime",metaObject)==null) {

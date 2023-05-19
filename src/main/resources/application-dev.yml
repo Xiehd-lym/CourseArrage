@@ -23,7 +23,6 @@ spring:
       max-file-size: 100MB
       max-request-size: 100MB
 
-
 mybatis-plus:
   mapper-locations: classpath:/mapper/xml/*Mapper.xml
   typeAliasesPackage: com.lyk.coursearrange.entity

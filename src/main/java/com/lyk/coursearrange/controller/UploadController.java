@@ -37,6 +37,9 @@ public class UploadController {
      */
     @PostMapping("/upload")
     public ServerResponse uploadClassTaskFile(MultipartFile file) {
+        /**
+         * 用户权限校验
+         */
         log.info("文件上传被调用。。。");
         return uploadService.upload(file);
     }

@@ -32,6 +32,9 @@ public interface ClassTaskDao extends BaseMapper<ClassTask> {
     @Select("select distinct grade_no from tb_class_task")
     List<String> selectByGradeNo();
 
+    /**
+     *
+     */
     @Update("truncate tb_class_task")
     void clearClassTaskOld();
 

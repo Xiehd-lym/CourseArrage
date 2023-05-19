@@ -2,10 +2,8 @@ package com.lyk.coursearrange.common;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.exceptions.JWTDecodeException;
-import com.lyk.coursearrange.service.AdminService;
-import com.lyk.coursearrange.service.StudentService;
-import com.lyk.coursearrange.service.TeacherService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.lyk.coursearrange.annotation.PassToken;
+import com.lyk.coursearrange.annotation.UserLoginToken;
 import org.springframework.lang.Nullable;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -21,15 +19,15 @@ import java.lang.reflect.Method;
  * @Descripe: 拦截器
  */
 public class AuthenticationInterceptor implements HandlerInterceptor {
-
-    @Autowired
-    private AdminService adminService;
-
-    @Autowired
-    private StudentService studentService;
-
-    @Autowired
-    private TeacherService teacherService;
+//
+//    @Autowired
+//    private AdminService adminService;
+//
+//    @Autowired
+//    private StudentService studentService;
+//
+//    @Autowired
+//    private TeacherService teacherService;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {

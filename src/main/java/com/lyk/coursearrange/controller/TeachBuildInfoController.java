@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
+ * 教学楼
  * @author lequal
  * @since 2020-03-20
  */

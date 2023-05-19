@@ -20,7 +20,7 @@ import org.springframework.stereotype.Controller;
 import java.util.*;
 
 /**
- *
+ * 教室信息
  * @author lequal
  * @since 2020-03-23
  */

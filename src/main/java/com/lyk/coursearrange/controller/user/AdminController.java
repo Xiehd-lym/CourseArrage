@@ -1,4 +1,4 @@
-package com.lyk.coursearrange.controller;
+package com.lyk.coursearrange.controller.user;
 
 
 

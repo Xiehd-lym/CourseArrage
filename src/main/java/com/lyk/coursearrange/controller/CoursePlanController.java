@@ -20,6 +20,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * 课程表
  * @author lequal
  * @since 2020-04-15
  */

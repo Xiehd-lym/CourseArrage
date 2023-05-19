@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lyk</groupId>
-    <artifactId>coursearrange</artifactId>
+    <artifactId>SeirMengCourseManage</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>coursearrange</name>
@@ -38,6 +38,7 @@
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+        <!-- Java时间操作类库—Joda-Time -->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>

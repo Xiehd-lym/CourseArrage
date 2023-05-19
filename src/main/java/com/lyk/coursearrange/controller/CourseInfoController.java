@@ -17,6 +17,7 @@ import org.springframework.stereotype.Controller;
 import java.util.List;
 
 /**
+ * 教材信息
  * @author lequal
  * @since 2020-04-03
  * description: 教材信息

@@ -25,8 +25,7 @@ public class TokenUtil {
      * @return
      */
     public static HttpServletRequest getRequest() {
-        ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder
-                .getRequestAttributes();
+        ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         return requestAttributes == null ? null : requestAttributes.getRequest();
     }
 }
