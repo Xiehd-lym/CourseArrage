@@ -1,4 +1,4 @@
-package com.lyk.coursearrange.controller;
+package com.lyk.coursearrange.controller.oss;
 
 import com.lyk.coursearrange.common.ServerResponse;
 import com.lyk.coursearrange.service.OSSService;

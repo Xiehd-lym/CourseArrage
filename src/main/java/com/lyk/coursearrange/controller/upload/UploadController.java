@@ -1,4 +1,4 @@
-package com.lyk.coursearrange.controller;
+package com.lyk.coursearrange.controller.upload;
 
 import cn.afterturn.easypoi.excel.ExcelExportUtil;
 import cn.afterturn.easypoi.excel.entity.ExportParams;
